@@ -1,0 +1,70 @@
+/*
+// Others
+@font: open-sans-condensed, sans-serif;
+@bolder-font: league-gothic, sans-serif;
+*/
+body {
+  margin-top: 10px;
+  background-color: #197bff;
+  color: #ffffff;
+  font-family: calendas-plus, sans-serif;
+}
+#content {
+  margin: 0;
+  width: 550px;
+  padding: 50px;
+  padding-top: 150px;
+}
+#profile h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  /*
+        padding: 20px;
+        background-color: lighten(@bg-color, 3%);
+        color: darken(@text-color, 20%);
+
+        max-width: 140px;
+
+        font-family: @bolder-font;
+        text-transform: uppercase;
+
+        .firstname {
+        display: block;
+            font-size: 54px;
+        }
+
+        .lastname {
+        display: block;
+            font-size: 32px;
+            font-weight: light;
+            display: block;
+            // text-transform: uppercase;
+        }
+        */
+
+}
+#links {
+  margin-top: 30px;
+  color: #4c98ff;
+  font-family: open-sans-condensed, sans-serif;
+}
+#links ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+#links ul li {
+  padding-bottom: 6px;
+}
+#links a {
+  text-decoration: none;
+  color: #7fb6ff;
+  border-bottom: 1px solid #4c98ff;
+}
+#links a:hover {
+  color: #ffffff;
+}
+#not-found {
+  font-size: 42px;
+}
