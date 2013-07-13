@@ -1,11 +1,18 @@
 // Colors
-@bg-color:#86832D;
+// @bg-color:#86832D;
+@bg-color:#0DAEE8;
 @text-color:lighten(@bg-color, 50%);
 @link-color:lighten(@bg-color, 20%);
 
 // Fonts
-// @font: league-gothic, sans-serif;
+@font: calendas-plus, sans-serif;
+@bolder-font: open-sans-condensed, sans-serif;
+
+/*
+// Others
 @font: open-sans-condensed, sans-serif;
+@bolder-font: league-gothic, sans-serif;
+*/
 
 // Styles
 body {
@@ -21,6 +28,7 @@ body {
     margin: 0;
     width: 550px;
     padding: 50px;
+    padding-top: 150px;
 }
 
 #profile {
@@ -28,17 +36,41 @@ body {
     h1 {
         padding: 0;
         margin: 0;
-        font-size: 21px;
         font-weight: normal;
-        display: inline;
+
+
+        /*
+        padding: 20px;
+        background-color: lighten(@bg-color, 3%);
+        color: darken(@text-color, 20%);
+
+        max-width: 140px;
+
+        font-family: @bolder-font;
+        text-transform: uppercase;
+
+        .firstname {
+        display: block;
+            font-size: 54px;
+        }
+
+        .lastname {
+        display: block;
+            font-size: 32px;
+            font-weight: light;
+            display: block;
+            // text-transform: uppercase;
+        }
+        */
     }
 }
 
 
 
 #links {
-    margin-top: 50px;
+    margin-top: 30px;
     color: darken(@link-color, 10%);
+    font-family: @bolder-font;
     ul {
         padding: 0;
         margin: 0;
