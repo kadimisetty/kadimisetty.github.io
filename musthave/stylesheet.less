@@ -1,0 +1,25 @@
+@bg-color: #ddd;
+@text-color: #333;
+
+@box-margin: 50px;
+
+
+body {
+    background-color: @bg-color;
+    color: @text-color;
+
+    font-family: sans-serif;
+}
+
+article {
+    width: 450px;
+    background-color: darken(@bg-color, 20%);
+    padding: @box-margin;
+}
+
+.unit {
+    margin: @box-margin;
+    background-color: darken(@bg-color, 50%);
+    color: white;
+    padding: @box-margin/2;
+}
