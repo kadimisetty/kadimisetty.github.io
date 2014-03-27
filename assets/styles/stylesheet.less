@@ -9,12 +9,21 @@
 @bolder-font:  "jubilat",sans-serif;
 
 
+// Mixins
+.rounded(@radius: 2px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+
 // Styles
 body {
-    margin-top: 10px;
+    margin-top: 1em;
     background-color: @bg-color;
     color: @text-color;
     font-family: @font;
+    font-size: 16px;
 }
 
 
@@ -22,67 +31,63 @@ body {
     margin: 0;
     width: 550px;
     padding: 50px;
-    padding-top: 150px;
+    padding-top: 2em;
 }
 
 #profile {
-
     h1 {
         padding: 0;
         margin: 0;
         font-weight: normal;
-
-
-        /*
-        padding: 20px;
-        background-color: lighten(@bg-color, 3%);
-        color: darken(@text-color, 20%);
-
-        max-width: 140px;
-
-        font-family: @bolder-font;
-        text-transform: uppercase;
-
-        .firstname {
-        display: block;
-            font-size: 54px;
-        }
-
-        .lastname {
-        display: block;
-            font-size: 32px;
-            font-weight: light;
-            display: block;
-            // text-transform: uppercase;
-        }
-        */
     }
+
+}
+
+.twitter-button h2 {
+  padding: 0;
+  margin-top: 1em;
+  font-size: 1em;
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 100;
+    padding: 0.4em 1em;
+    margin: 1em 1em 1em 0;
+
+    background-color: darken(@bg-color, 10%);
+    color: @link-color;
+    .rounded(4px);
+    &:hover {
+      color: lighten(@link-color, 10%);
+    }
+  }
 }
 
 
-
 #links {
-    margin-top: 30px;
+  margin-top: 2em;
+  margin-bottom: 0;
     color: darken(@link-color, 10%);
     font-family: @font;
     font-weight: light;
+    font-size: 1em;
     ul {
         padding: 0;
         margin: 0;
         list-style-type: none;
 
         li {
-            padding-bottom: 6px;
-
+          padding-bottom: 6px;
+          &.github-link {
+            padding-bottom: 1em;
+          }
         }
     }
 
     a {
         text-decoration: none;
         color: @link-color;
-
         border-bottom: 1px solid darken(@link-color, 10%);
-
         &:hover {
         color: lighten(@link-color, 50%);
 
@@ -92,15 +97,10 @@ body {
 
 
 #not-found {
-    font-size: 42px;
+    font-size: 5em;
 }
 
-
-#blurb {
-  font-size: 36px;
-  font-style: italic;
-
-  padding-bottom: 2em;
-  border-bottom: 1px solid lighten(@bg-color, 10%);
-  margin-bottom: 3em;
+#colophon {
+  color: darken(@link-color, 10%);
+  font-size: 2em;
 }
