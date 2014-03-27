@@ -16,6 +16,9 @@
   border-radius: @radius;
 }
 
+// Break Points
+@break-small: 320px;
+
 
 // Styles
 body {
@@ -27,12 +30,18 @@ body {
 }
 
 
+
 #content {
     margin: 0;
     width: 550px;
-    padding: 50px;
-    padding-top: 2em;
+    padding: 2em;
 }
+@media screen and (max-width: @break-small) {
+  #content {
+    padding: 1em;
+  }
+}
+
 
 #profile {
     h1 {
