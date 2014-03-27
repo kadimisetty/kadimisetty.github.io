@@ -5,14 +5,9 @@
 @link-color:lighten(@bg-color, 20%);
 
 // Fonts
-@font: calendas-plus, sans-serif;
-@bolder-font: open-sans-condensed, sans-serif;
+@font:  "jubilat",sans-serif;
+@bolder-font:  "jubilat",sans-serif;
 
-/*
-// Others
-@font: open-sans-condensed, sans-serif;
-@bolder-font: league-gothic, sans-serif;
-*/
 
 // Styles
 body {
@@ -21,7 +16,6 @@ body {
     color: @text-color;
     font-family: @font;
 }
-
 
 
 #content {
@@ -70,7 +64,8 @@ body {
 #links {
     margin-top: 30px;
     color: darken(@link-color, 10%);
-    font-family: @bolder-font;
+    font-family: @font;
+    font-weight: light;
     ul {
         padding: 0;
         margin: 0;
@@ -98,4 +93,14 @@ body {
 
 #not-found {
     font-size: 42px;
+}
+
+
+#blurb {
+  font-size: 36px;
+  font-style: italic;
+
+  padding-bottom: 2em;
+  border-bottom: 1px solid lighten(@bg-color, 10%);
+  margin-bottom: 3em;
 }
