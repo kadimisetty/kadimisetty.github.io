@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/kadimisetty
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sri.io
+  * I am kadimisetty (https://keybase.io/kadimisetty) on keybase.
+  * I have a public key with fingerprint 0311 1FAA EE48 AAA0 58D2  6EAC DFB8 8946 42B7 0AC3
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010185cc65b66ab2b2c92aa159400d294a4e5d318984ce3e53eec1374a45687ea3e90a",
+            "fingerprint": "03111faaee48aaa058d26eacdfb8894642b70ac3",
+            "host": "keybase.io",
+            "key_id": "dfb8894642b70ac3",
+            "kid": "010185cc65b66ab2b2c92aa159400d294a4e5d318984ce3e53eec1374a45687ea3e90a",
+            "uid": "06084b017b08a5b2a68582ea8fadd200",
+            "username": "kadimisetty"
+        },
+        "service": {
+            "hostname": "sri.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1454791722,
+    "expire_in": 157680000,
+    "prev": "ae16429aab2218e8f44a6400427fd287f04d9ebf8ffb8d2091429e0ad0b8d8a0",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMIcAnicrVJbSBRRGF6vlbQpQVhCBJNYyLKeuZ/ZIGojSiwysWRDXM/MnFkndXec
+Ga+bFCFahlRkD5kXKonoQdvIkCIvqQ9mvvTkgw8WkolIFFGUYJ1R6anHzsvh/8/3
+/ef7Pv5xd4IrJa6w68S1hc7ti3FTo7eqXWefF2dHKTmi1lO+KFWO1y5coWLLDpbr
+KuWjAA1oyCuKwMuCgGRGZhSJQYjmJQ4AlZE4xGFeZWkoQU7BLOZZjBWaFUmfF6CI
+EYslgCgPpenhEDYNUw/bzliWpmkNIYw5iBACPFQZASNF1WQIJU7gGFkESGEJsSxi
+OQwiTkYW9uoR0iNFcE3eP/D/WXf1+jgBQE4GtCgDiHiZQQLkIYMR1JCqMgA4QAub
+YVSJHa1I1St1C9t2PdXoochDja5gJ1vHzAbIMvV1M4YZsSNKpIL0ymzb8DkUu95w
+MLVYDm6wg7IeVkmGhFCDTUuPhCkfTZCKrTvjaI7nRIkWGcZD4TpDN3FQdxC8KEBA
+jvMNriEjEaZJWhIimTA0xFDjOCSQTDhG1FQGihrgVAnLGtRItMSaRBM0BkgFpITI
+cWrhqnCE8glEJgo5TvRQGNnVJqYaX48UJ7riUlzJSfHObrlStqT93bi2za5Ly7Gh
+semV3ncpR8emB4YzerpmjeT+vm0fgHDoTVv2JHt5Oa3gYkeiPj3/OenJ1P3o070h
+efn9noJ60x3vPZehLLzwa/vc7Y2cf+fcitgq+6mYUfQztcSMdvSllwa63d05Y+zD
+QFnx4JnRR6eGs/iP49f97ROLHjjjO9629XRsdTbPe69g4sJb+4DROZ90Y1dO6Uhl
+i/dLZjSrZ+LqwNfb5b3Dj/OzM5NjQ0V0Ql7TscGqg0nnf4UbpsbTv+2YKVx6Nflb
+afUmDt9daj7y3aI2NQT8cz/6B+7svzl0pbu5aTk/sJpa3tfy6XBJ3bO0gFG1O/dl
+7syDk7VT7qqGkT+aIT1L
+=an1I
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kadimisetty
+
+==================================================================
